@@ -1,4 +1,6 @@
-# Tp_Ansible <Victor Moreau> <victor.moreau@ynov.com> 
+# Tp_Ansible @Propriété de Victor Moreau
+
+ <victor.moreau@ynov.com> 
 
 
 Server SSH Ansible Nginx Docker
@@ -52,4 +54,4 @@ Creation des 3 containers récupérant un server ssh gérer par Ansible
 #9 Si Crash
 
 	-> Décommentez la task -name="restart pm2"
-				shell: pm2 stop /var/www/my-node-project/myapp/bin/myapp
+				shell: pm2 stop /var/www/my-node-project/myapp/bin/myapp	
