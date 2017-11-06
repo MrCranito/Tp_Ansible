@@ -22,9 +22,9 @@ Creation des 3 containers récupérant un server ssh gérer par Ansible
 
 #3-> Création des servers : 
 
-	-# docker run -d --name="ssh-server-1" registry.mrzee.fr/ynov/ssh-server:0.1 -
-	-# docker run -d --name="ssh-server-2" registry.mrzee.fr/ynov/ssh-server:0.1 -
-        -# docker run -d --name="ssh-server-3" registry.mrzee.fr/ynov/ssh-server:0.1 -
+	 docker run -d --name="ssh-server-1" registry.mrzee.fr/ynov/ssh-server:0.1 
+	 docker run -d --name="ssh-server-2" registry.mrzee.fr/ynov/ssh-server:0.1 
+         docker run -d --name="ssh-server-3" registry.mrzee.fr/ynov/ssh-server:0.1 
 
 #4 -> Création de la clé ssh
 
