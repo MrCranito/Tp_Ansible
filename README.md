@@ -7,7 +7,7 @@ Server SSH Ansible Nginx Docker
 Creation des 3 containers récupérant un server ssh gérer par Ansible
 
 
-#1 -> Se connecter au hub privé : 
+- #1 -> Se connecter au hub privé : - 
 
 	docker login registry.mrzee.fr
 		-> Id : ynov
