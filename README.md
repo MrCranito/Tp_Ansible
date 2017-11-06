@@ -7,6 +7,10 @@ Server SSH Ansible Nginx Docker
 Creation des 3 containers récupérant un server ssh gérer par Ansible
 
 
+#PostProject : Installer Docker sur votre machine 
+	
+
+
  #1 -> Se connecter au hub privé :  
 
 	docker login registry.mrzee.fr
