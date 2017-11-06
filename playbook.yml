@@ -44,8 +44,8 @@
       npm: 
         path: /var/www/my-node-project/myapp/
 
-    - name: restart pm2
-      shell: pm2 stop /var/www/my-node-project/myapp/bin/www    
+    #- name: restart pm2
+    #  shell: pm2 stop /var/www/my-node-project/myapp/bin/www    
 
     - name: run_app
       shell: pm2 start /var/www/my-node-project/myapp/bin/www
