@@ -8,12 +8,15 @@ Creation des 3 containers récupérant un server ssh gérer par Ansible
 
 
 #1 -> Se connecter au hub privé : 
+
 	docker login registry.mrzee.fr
 		-> Id : ynov
+
 		-> mdp: DevOps123!
 
 
 #2 -> Récupérer l'image du server ssh 
+
 	docker pull registry.mrzee.fr/ynov/ssh-server:0.1
 
 
